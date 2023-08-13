@@ -28,13 +28,19 @@ console.log("hello");
 //     },
 // })
 
+
+// created a timeline
 var tl = gsap.timeline();
 
+
+// first animation to the timeline, for .page and .box
 tl.from(".page1 .box", {
     scale: 0,
     duration: 10,
     rotate: 1720
 })
+
+// second animation to the .page and .box
 tl.from(".page2 .box", {
     scale: 0,
     duration: 3,
@@ -43,6 +49,5 @@ tl.from(".page2 .box", {
         scroller: "body",
         markers: true,
         start: "top 76%"
-
     }
 })
