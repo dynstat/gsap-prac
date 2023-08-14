@@ -41,7 +41,7 @@ tl.from(".page1 .box", {
 })
 
 // second animation to the .page and .box
-tl.from(".page2 .box", {
+gsap.from(".page2 .box", {
     scale: 0,
     duration: 3,
     scrollTrigger: {
