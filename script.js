@@ -36,7 +36,7 @@ var tl = gsap.timeline();
 // first animation to the timeline, for .page and .box
 tl.from(".page1 .box", {
     scale: 0,
-    duration: 10,
+    duration: 2,
     rotate: 1720
 })
 
@@ -46,8 +46,8 @@ tl.from(".page2 .box", {
     duration: 3,
     scrollTrigger: {
         trigger: ".page2 .box",
-        scroller: "body",
+        // scroller: "body",
         markers: true,
-        start: "top 76%"
+        // start: "top 76%"
     }
 })
