@@ -51,3 +51,7 @@ gsap.from(".page2 .box", {
         // start: "top 76%"
     }
 })
+
+//creating an independent scrollTrigger object
+
+trigger1 = gsap.scrollTrigger()
